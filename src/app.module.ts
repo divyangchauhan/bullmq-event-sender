@@ -25,6 +25,6 @@ import { CourtV2JurorDrawNotificationService } from './bullmq.processor';
     }),
   ],
   controllers: [AppController],
-  providers: [AppService],
+  providers: [AppService, CourtV2JurorDrawNotificationService],
 })
 export class AppModule {}
